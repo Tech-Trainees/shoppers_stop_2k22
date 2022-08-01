@@ -9,6 +9,9 @@ height: 184px;
 left: 84px;
 top: 584px;
 }
+.productsSlick:hover{
+    cursor: pointer;
+}
 .productSlickDiv{
     /* width: 50%; */
     margin: 10px;
@@ -69,6 +72,13 @@ border-radius: 0px;
     height: 65px;
 }
 .all-products-btnclr{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
     height: 36px;
 width: 198px;
 left: 0px;
@@ -76,8 +86,11 @@ top: 148px;
 border-radius: 0px;
 border: none;
 
-
 }
+.all-products-btnclr:hover{
+    cursor: pointer;
+}
+
 .all-products-btnfont{
     font-family: Helvetica Neue;
     font-size: 18px;
@@ -96,9 +109,12 @@ border: none;
 .all-products-btnfont:hover{
     color: #FFFFFF;
 }
+.all-products-btnclr:hover{
+    color: #FFFFFF;
+}
 .all-products-btnclr1:hover{
     background: #C65D82;
-   
+     color: #FFFFFF;
 }
 .all-products-btnclr2:hover{
   background: rgba(173, 24, 76, 0.7);
@@ -136,6 +152,9 @@ border: none;
     left: 156px;
     top: 808px;
     background: #a1cdd352;
+}
+.adv-product-div:hover{
+    cursor: pointer;
 }
 .adv-content{
     position: absolute;
@@ -255,6 +274,9 @@ font-size: 12px;
 line-height: 16px;
 color: #DEA3B7;
 
+}
+.adv-content-shopnowbtn:hover{
+    cursor: pointer;
 }
 .adv-productimg{
     position: relative;
