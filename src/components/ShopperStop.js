@@ -7,7 +7,8 @@ import Exclusivess from './Exclusive_at_ss'
 import { Banner } from './MainBanner'
 import More from './More_offers'
 import BasicTabs from './Tabs'
-
+import Clearance_sale from './Clearance_sale'
+import First_citizen_program from './First-citizen-program'
 export const ShoppersStop = () => {
   return (
     <div>
@@ -28,6 +29,8 @@ export const ShoppersStop = () => {
         <Exclusivess />
         <More/>
         <Category/>
+        <Clearance_sale />
+        <First_citizen_program/>
     </div>
         
   )
