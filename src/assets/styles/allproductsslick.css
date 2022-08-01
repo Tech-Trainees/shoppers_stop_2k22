@@ -1,6 +1,4 @@
-body{
-    /* overflow-x: hidden; */
-}
+
 .productsSlick{
     width: 100%;
     /* position: absolute;
@@ -39,7 +37,7 @@ top: 0px;
 border-radius: 0px;
 
 }
-.slick-prev::before{
+/* .slick-prev::before{
     content: "<";
     color: #DEA3B7;
     font-size: 30px;
@@ -48,7 +46,7 @@ border-radius: 0px;
     content: ">";
     color: #DEA3B7;
     font-size: 30px;
-}
+} */
 
 /* .slick-list {
     margin: 40px;
@@ -57,7 +55,7 @@ border-radius: 0px;
     
 } */
 
-.slick-next {
+/* .slick-next {
     right: -28px;
     position: absolute;
     top: 22px;
@@ -66,7 +64,7 @@ border-radius: 0px;
     left: -25px;
     position: absolute;
     top: 20px;
-}
+} */
 /* .slick-active, .slick-slide, .slick-current{
     width: 200px;
 } */
