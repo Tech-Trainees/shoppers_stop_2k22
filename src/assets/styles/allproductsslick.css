@@ -78,6 +78,13 @@ top: 148px;
 border-radius: 0px;
 border: none;
 
+font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
 
 }
 .all-products-btnfont{
@@ -98,9 +105,13 @@ border: none;
 .all-products-btnfont:hover{
     color: #FFFFFF;
 }
+.all-products-btnclr:hover{
+    color: #FFFFFF;
+}
 .all-products-btnclr1:hover{
     background: #C65D82;
-   
+    color: #FFFFFF;
+
 }
 .all-products-btnclr2:hover{
   background: rgba(173, 24, 76, 0.7);
