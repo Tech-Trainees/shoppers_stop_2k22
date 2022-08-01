@@ -22,7 +22,7 @@ function Top_Categories_For_You() {
         </div>
         <div className="Ellipse18_1img">
           <div className="Ellipse18imgcircle">
-          <img src={Ellipse18_1} alt='fragrance' className='fragrance'/>
+          <img src={Ellipse18_1} alt='fragrance' className='fragrance_arrival'/>
           </div>
           <div className="Ellipse18_1img_caption">new arrivals</div>
         </div>
