@@ -1,6 +1,7 @@
 import React from 'react'
 import { Advertiseblog } from './Advertiseblog'
 import AllproductsSlick from './AllproductsSlick'
+import Exclusivess from './Exclusive_at_ss'
 
 import { Banner } from './MainBanner'
 import BasicTabs from './Tabs'
@@ -21,6 +22,7 @@ export const ShoppersStop = () => {
         <Banner />
         <AllproductsSlick />
         <Advertiseblog />
+        <Exclusivess />
     </div>
         
   )
