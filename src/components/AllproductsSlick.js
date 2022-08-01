@@ -6,7 +6,7 @@ import '../assets/styles/allproductsslick.css'
 import BestSellers from '../assets/images/cream.jpg'
 import Newarrival from '../assets/images/lipstick.png'
 import Fragrances from '../assets/images/perfumes.png'
-import Makeup from '../assets/images/makeup.png'
+import Makeup from '../assets/images/makeupkit.png'
 import Skin from '../assets/images/creamtubes.png'
 import Hair from '../assets/images/lotions.png'
 import Mascara from '../assets/images/mascarakit.png'
@@ -125,10 +125,11 @@ export default function AllproductsSlick() {
                       <button
                         className={`all-products-btnclr all-products-btnclr${data.imgId}`}
                       > 
-                      <span className='all-products-btnfont'>{data.btnName}</span>
+                      {/* <span className='all-products-btnfont'> */}
+                        {data.btnName}
+                        {/* </span> */}
                       </button>
-                       
-                      
+                  
                   </div>
               ))}
                {/* style={{width:'100%'}} */}

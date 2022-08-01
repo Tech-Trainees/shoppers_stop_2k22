@@ -9,15 +9,19 @@
     width: 1272px;
     border-radius: 0px;
 }
+.mainbanner:hover{
+    cursor: pointer;
+}
 .mainbannerimgpos {
     height: 370px;
      width: 1272px; 
      margin: 0 auto;
      /* margin-left: -118px; */
 }
-/* .slick-slide img{
-    height: 370px;
-} */
+ .slick-track{
+    /* width:1272px; */
+    /* height: 370px; */
+} 
 .bannerimgcss{
     /* filter: back ; */
     /* margin-left: -50px; */
