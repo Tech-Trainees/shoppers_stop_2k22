@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/styles/Trending_Stores.css';
-import MakeUp from '../assets/images/MakeUp.png'; 
+import MakeUp from '../assets/images/makeup.png'; 
 import The_BestDeals from '../assets/images/The_BestDeals.png'; 
 
 function Trending_Stores() {
