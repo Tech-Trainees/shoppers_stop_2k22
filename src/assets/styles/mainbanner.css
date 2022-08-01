@@ -9,6 +9,9 @@
     width: 1272px;
     border-radius: 0px;
 }
+.mainbanner:hover{
+    cursor: pointer;
+}
 .mainbannerimgpos {
     height: 370px;
      width: 1272px; 

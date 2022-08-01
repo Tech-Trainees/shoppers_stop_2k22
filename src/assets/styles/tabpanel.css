@@ -49,6 +49,9 @@ background: #dea3b736;
     line-height: 17px;
     color: #231F20;
 }
+.mainheadercontentgta:hover{
+    cursor: pointer;
+}
 .mainheadercontentgc{
     position: absolute;
 left: 61.96%;
@@ -108,6 +111,9 @@ line-height: 17px;
     /* Primary/Black/Black #231F20 */
     
     color: #231F20;
+}
+.mainheader-clr:hover{
+    cursor: pointer;
 }
 #simple-tab-0{
     position: absolute;
