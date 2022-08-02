@@ -10,6 +10,8 @@ import More from './More_offers'
 import BasicTabs from './Tabs'
 import Clearance_sale from './Clearance_sale'
 import First_citizen_program from './First-citizen-program'
+import TotalFooter from './TotalFooter'
+
 export const ShoppersStop = () => {
   return (
     <div>
@@ -28,6 +30,13 @@ export const ShoppersStop = () => {
         <Advertiseblog />
 
         <Beauty_Category_Stores/>
+        <Fragrance_Store />
+        <Exclusivess />
+        <More/>
+        <Category/>
+        <Clearance_sale />
+        <First_citizen_program/>
+        <TotalFooter/>
 
         <Fragrance_Store />
 

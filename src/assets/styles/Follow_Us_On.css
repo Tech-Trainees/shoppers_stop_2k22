@@ -1,0 +1,93 @@
+.follow_us_on{
+    position: absolute;
+    width: 136.11px;
+    height: 26px;
+    left: 191.08px;
+    top: 11294px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142%;
+    text-transform: uppercase;
+    color: #231F20;
+}
+.twitterimg{
+    position: absolute;
+    width: 43.03px;
+    height: 42px;
+    left: 410.26px;
+    top: 11285px;
+    border-radius: 5px;
+}
+.instagramimg{
+    position: absolute;
+    width: 42.03px;
+    height: 42px;
+    left: 473.31px;
+    top: 11285px;
+}
+.mainfollow_us_on{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1271px;
+    height: 109px;
+    left: 85px;
+    top: 11251px;
+    border: 1px solid rgba(167, 165, 166, 0.34);
+}
+.Subscribe_to_our{
+    position: absolute;
+    width: 245.19px;
+    height: 26px;
+    left: 580.39px;
+    top: 11293px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142%;
+    text-transform: uppercase;
+    color: #231F20;
+}
+.Subscribe_span{
+    width: 78px;
+    height: 16px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DEA3B7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.Subscribe_div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 26px;
+    gap: 10px;
+    position: absolute;
+    width: 130px;
+    height: 23px;
+    left: 1116.81px;
+    top: 11284px;
+    background: #231F20;
+}
+.email_input{
+    position: absolute;
+    width: 230px;
+    height: 47px;
+    top: 11284px;
+    left: 906.81px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+}
