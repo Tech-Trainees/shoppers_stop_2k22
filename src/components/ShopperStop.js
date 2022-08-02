@@ -2,7 +2,10 @@ import React from 'react'
 import { Advertiseblog } from './Advertiseblog'
 import AllproductsSlick from './AllproductsSlick'
 import Beauty_Category_Stores from './Beauty_Category_Stores'
+import Category from './Category_foucs'
+import Exclusivess from './Exclusive_at_ss'
 import { Banner } from './MainBanner'
+import More from './More_offers'
 import BasicTabs from './Tabs'
 import Clearance_sale from './Clearance_sale'
 import First_citizen_program from './First-citizen-program'
@@ -32,6 +35,9 @@ export const ShoppersStop = () => {
         <Clearance_sale />
         <First_citizen_program/>
         <TotalFooter/>
+        <Exclusivess />
+        <More/>
+        <Category/>
     </div>
         
   )
