@@ -125,10 +125,11 @@ export default function AllproductsSlick() {
                       <button
                         className={`all-products-btnclr all-products-btnclr${data.imgId}`}
                       > 
-                      <span className='all-products-btnfont'>{data.btnName}</span>
+                      {/* <span className='all-products-btnfont'> */}
+                        {data.btnName}
+                        {/* </span> */}
                       </button>
-                       
-                      
+                  
                   </div>
               ))}
                {/* style={{width:'100%'}} */}

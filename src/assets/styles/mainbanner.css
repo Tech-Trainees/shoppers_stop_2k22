@@ -9,6 +9,9 @@
     width: 1272px;
     border-radius: 0px;
 }
+.mainbanner:hover{
+    cursor: pointer;
+}
 .mainbannerimgpos {
     height: 370px;
      width: 1272px; 
@@ -31,7 +34,7 @@
 
 }
 .slick-list{
-    height: 370px;
+    height: 458px;
      /* margin-right:20 20px;  */
      /* width: 120%;  */
 }

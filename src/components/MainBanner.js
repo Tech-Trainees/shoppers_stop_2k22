@@ -24,22 +24,22 @@ export const Banner = () => {
     {
       image:Bannerimg1,
       title: 'Own Your Beauty Power',
-      caption: 'An experiential, interactive and inspirational beauty site ',
-      btnName: 'Discover Now',
+      caption:'An experiential, interactive and inspirational beauty site ',
+      btnName:'Discover Now',
       imgid:1,
     },
     {
       image:Bannerimg2,
-      title: 'Own Your Beauty Power',
-      caption: 'An experiential, interactive and inspirational beauty site ',
-      btnName: 'Discover Now',
+      title:'Own Your Beauty Power',
+      caption:'An experiential, interactive and inspirational beauty site ',
+      btnName:'Discover Now',
       imgid:2,
     },
     {
       image:Bannerimg3,
-      title: 'Own Your Beauty Power',
-      caption: 'An experiential, interactive and inspirational beauty site ',
-      btnName: 'Discover Now',
+      title:'Own Your Beauty Power',
+      caption:'An experiential, interactive and inspirational beauty site ',
+      btnName:'Discover Now',
       imgid:3,
     },
   ]
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className='bannercaption'>
                 {data.caption}
               </div>
-              <button value='Discover Now' className='btn-discover'><span>{data.btnName}</span></button>
+              <button value='Discover Now' className='btn-discover'>{data.btnName}</button>
           </div>          
                       
         ))}
