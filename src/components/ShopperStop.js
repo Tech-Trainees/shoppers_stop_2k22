@@ -4,6 +4,9 @@ import AllproductsSlick from './AllproductsSlick'
 import Beauty_Category_Stores from './Beauty_Category_Stores'
 import { Banner } from './MainBanner'
 import BasicTabs from './Tabs'
+import Clearance_sale from './Clearance_sale'
+import First_citizen_program from './First-citizen-program'
+import TotalFooter from './TotalFooter'
 
 export const ShoppersStop = () => {
   return (
@@ -22,6 +25,13 @@ export const ShoppersStop = () => {
         <AllproductsSlick />
         <Advertiseblog />
         <Beauty_Category_Stores/>
+        <Fragrance_Store />
+        <Exclusivess />
+        <More/>
+        <Category/>
+        <Clearance_sale />
+        <First_citizen_program/>
+        <TotalFooter/>
     </div>
         
   )
