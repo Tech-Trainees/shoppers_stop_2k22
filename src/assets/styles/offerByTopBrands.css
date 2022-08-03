@@ -1,0 +1,265 @@
+.offerByTopBrandsdiv1
+{
+/* position: absolute; */
+width: 412px;
+height: 310px;
+/* left: 84px;
+top: 1210px; */
+
+background: url(../images/offerByTopBrandsimg1.png);
+}
+.offerByTopBrandsdiv2
+{
+/* position: absolute; */
+width: 412px;
+height: 310px;
+/* left:
+514px;
+top: 1210px; */
+
+background: url(../images/offerByTopBrandsimg2.png);
+}
+.offerByTopBrandsdiv3
+{
+/* position: absolute; */
+width: 412px;
+height: 310px;
+/* left: 
+944px;
+top: 1210px; */
+
+background: url(../images/offerByTopBrandsimg3.png);
+}
+.offerByTopBrandsdiv4
+{
+/* position: absolute; */
+width: 412px;
+height: 310px;
+/* left: 84px;
+top: 
+ 1538px; */
+
+background: url(../images/offerByTopBrandsimg4.png);
+}
+.offerByTopBrandsdiv5
+{
+/* position: absolute; */
+width: 412px;
+height: 310px;
+/* left:  514px;
+top: 
+ 1538px; */
+
+background: url(../images/offerByTopBrandsimg5.png);
+}
+.offerByTopBrandsdiv6
+{
+/* position: absolute; */
+width: 412px;
+height: 310px;
+/* left:  944px;
+top: 
+ 1538px; */
+
+background: url(../images/offerByTopBrandsimg6.png);
+}
+.offerByTopBrandsMainDiv {
+    position:absolute;
+    display:grid;
+    cursor: pointer;
+    grid-template-columns: auto auto auto;
+    left: 84px;
+top: 1210px;
+    row-gap: auto;
+    width: 1272px;
+height: 638px;
+}
+.offerByTopBrandsHead{
+    position:absolute;
+    font-family: Helvetica Neue;
+    left: 577px;
+top: 1168px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.1em;
+text-align: center;
+
+}
+.offerByTopBrandsInnDiv1{
+    width: 388px;
+    height: 70px;
+    margin-top: 228px;
+    margin-left: 12px;
+    background: #FFFFFF;
+    backdrop-filter: blur(4px);
+}
+.offerByTopBrandsInnHead{
+ 
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+padding: 10PX;
+color: #AD184C;
+}
+.offerByTopBrandsInnSubHead{
+    position: absolute;
+width: 133px;
+height: 17px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #7B7979;
+margin-left: 129px;
+/* margin-top: 29px; */
+
+}
+.offerByTopBrandsViewAll{
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .offerByTopBrandsMainDiv {
+        position: absolute;
+        display:grid;
+    cursor: pointer;
+    grid-template-columns: 165px auto ;
+    row-gap: 10px;
+    left: 16px;
+    width: 328px;
+    height: auto;
+top: 646px;
+
+/* height: 638px; */
+/* margin-top: 24PX; */
+    }
+    .offerByTopBrandsdiv1{
+        width: 160px;
+height: 120px;
+background: url(../images/offersByTopBrandsimg11.png);
+
+    }
+    .offerByTopBrandsdiv2{
+        width: 160px;
+height: 120px;
+background: url(../images/offerByTopBrandsimg22.png);
+
+    }
+    .offerByTopBrandsdiv3{
+        width: 160px;
+height: 120px;
+background: url(../images/offersByTopBrandsimg33.png);
+
+    }
+    .offerByTopBrandsdiv4{
+        width: 160px;
+height: 120px;
+background: url(../images/offersByTopBrandsimg44.png);
+
+    }
+    .offerByTopBrandsdiv5{
+        display:none;
+    }
+    .offerByTopBrandsdiv6{
+        display:none;
+    }
+    .offerByTopBrandsInnDiv1{
+        position: relative;
+        bottom: 156px;
+        width: 152px;
+       height: 40.95px;
+       
+        margin-left: 4px;
+        background: #FFFFFF;
+        backdrop-filter: blur(4px);
+    }
+    .offerByTopBrandsInnHead{
+        width: 143px;
+height: 14px;
+/* left: 25px;
+top: 727px; */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+
+/* Primary/Velvet/Velvet #AD184C */
+
+color: #AD184C;
+
+
+    }
+    .offerByTopBrandsInnSubHead{
+        position: relative;
+        right: 115px;
+    bottom: 9px;
+width: 136px;
+height: 13px;
+/* left: 28px;
+top: 743px; */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+/* Primary/Black/Black 60% */
+
+color: #7B7979;
+
+
+    }
+    .offerByTopBrandsHead{
+        position: absolute;
+width: 168px;
+height: 14px;
+/* top:4622px; */
+left: 100px;
+top:622px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* Primary/Black/Black #1C191A */
+
+color: #1C191A;
+
+
+    }
+    .offerByTopBrandsViewAll{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 6px 18px;
+        gap: 10px;
+        
+        position: absolute;
+        width: 94px;
+        height: 28px;
+        left: 133px;
+        top: 906px;
+        
+        /* Primary/Black/Black #231F20 */
+        
+        background: #231F20;
+    }
+  }
+ 

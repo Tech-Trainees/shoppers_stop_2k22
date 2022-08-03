@@ -57,6 +57,10 @@
     color: #FFFFFF;
     line-height: 57px;
 }
+.planningDate2{
+    position:absolute;
+  display: hidden;
+}
 .datenight button{
     width:145px;
     height: 44px;
@@ -303,7 +307,30 @@
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:360px) {
+    .datenight h1{
+        /* Date Night Special */
+
+
+position: relative;
+width: 170px;
+height: 22px;
+right: 556px;
+/* left: 147px; */
+/* top: 2900px; */
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+    }
     .fragrance{
         position: absolute;
         width: 360px;
@@ -329,10 +356,36 @@
     
     }
     .screen2 , .screen3{
+        position: absolute;
         width: 328px;
         height: 116px;
+        left: 16px;
     }
-    .screen2 img, .screen3 img{
+    .screen2 img{
+        display: none
+    }
+    .MobileModelPic{
+        position: absolute;
+width: 165.88px;
+height: 116px;
+/* left: 181.88px; */
+/* top: 2884px; */
+
+background: url(../images/ambassador_model_mobile.png);
+filter: drop-shadow(19px 35px 63px rgba(74, 63, 142, 0.57));
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    }
+     .screen3 img{
+        width: 165.88px;
+height: 116px;
+/* left: 181.88px; */
+/* top: 2884px; */
+
+background: url(../images/ambassador_model_mobile.png);
+filter: drop-shadow(19px 35px 63px rgba(74, 63, 142, 0.57));
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    }
+     .screen3 img{
         width: 165.88px;
         height: 116px;
     }
