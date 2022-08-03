@@ -1,9 +1,9 @@
 import React from "react";
 import '../assets/styles/Trending_Stores.css';
-import MakeUp from '../assets/images/makeup.png'; 
+import MakeUp from '../assets/images/MakeUp.png'; 
 import The_BestDeals from '../assets/images/The_BestDeals.png'; 
 
-function Trending_Stores() {
+function TrendingStores() {
   return (
     <div className="MainTrending_storesdiv"> 
         <div className="MainTrending_stores">
@@ -21,5 +21,5 @@ function Trending_Stores() {
   );
 }
 
-export default Trending_Stores;
+export default TrendingStores;
                 
