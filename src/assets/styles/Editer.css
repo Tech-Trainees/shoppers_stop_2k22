@@ -1,0 +1,365 @@
+.Editer_pics_name{
+    position: absolute;
+    top:8295px;
+    left:630px;
+    width: 181px;
+    height:24px;
+    Font-family: Helvetica ;
+Font-style: Regular;
+Font-size: 20px;
+Line-height: 100%;
+text-Align: Center;
+Vertical-align: Top;
+Letter-spacing: 10%;
+Fill: Solid #1C191A;
+}
+.Grid_editer{
+  position: absolute;
+  top:8337px;
+  left:84px;
+  width:413px;
+  height:310px;
+ display: grid;
+ grid-template-columns: auto auto auto;
+ gap:20px;
+}
+.Editers_background{
+    position: absolute;
+    top:8587px;
+    left:84px;
+    background-color: #181516;
+    color:white;
+    width:413px;
+    height:60px;
+}
+.Editers_background2{
+    position: absolute;
+    top:8587px;
+    left:517px;
+    background-color: #181516;
+    color:white;
+    width:413px;
+    height:60px;
+}
+
+.Editers_background3{
+    position: absolute;
+    top:8587px;
+    left:952px;
+    background-color: #181516;
+    color:white;
+    width:414px;
+    height:60px;
+}
+
+.Editers_background4{
+    position: absolute;
+    top:8916px;
+    left:84px;
+    background-color: #181516;
+    color:white;
+    width:413px;
+    height:60px;
+}
+
+.Editers_background5{
+    position: absolute;
+    top:8916px;
+    left:517px;
+    background-color: #181516;
+    color:white;
+    width:413px;
+    height:60px;
+}
+
+.Editers_background6{
+    position: absolute;
+    top:8916px;
+    left:952px;
+    background-color: #181516;
+    color:white;
+    width:412px;
+    height:60px;
+}
+.makeuplooks{
+    position: absolute;
+    top:0px;
+    left:94px;
+    width:200px;
+    height:32px;
+    color:#ffffff;
+    Font-family: Helvetica ;
+Font-size: 16px;
+Line-height: 32px;
+text-Align: Center;
+Vertical-align: Top;
+}
+.shampoos{
+    position: absolute;
+    top:8588px;
+    left:561px;
+    width:306px;
+    height:32px;
+    color:#ffffff;
+    Font-family: Helvetica ;
+Font-size: 16px;
+Line-height: 32px;
+text-Align: Center;
+Vertical-align: Top;
+}
+.rightaway{
+    position: absolute;
+    top:0px;
+    left:70px;
+    width:260px;
+    height:32px;
+    color:#ffffff;
+    Font-family: Helvetica ;
+Font-size: 16px;
+Line-height: 32px;
+text-Align: Center;
+Vertical-align: Top;
+}
+.veryMakeup{
+    position: absolute;
+    top:0px;
+    left:70px;
+    width:260px;
+    height:32px;
+    color:#ffffff;
+    Font-family: Helvetica ;
+Font-size: 16px;
+Line-height: 32px;
+text-Align: Center;
+Vertical-align: Top;
+}
+.Lipstains{
+    position: absolute;
+    top:0px;
+    left:70px;
+    width:250px;
+    height:32px;
+    color:#ffffff;
+    Font-family: Helvetica ;
+Font-size: 16px;
+Line-height: 32px;
+text-Align: Center;
+Vertical-align: Top;
+}
+.banishfrizz{
+    position: absolute;
+    top:8918px;
+    left:988px;
+    width:325px;
+    height:32px;
+    color:#ffffff;
+    Font-family: Helvetica ;
+Font-size: 16px;
+Line-height: 32px;
+text-Align: Center;
+Vertical-align: Top;
+}
+
+@media(max-width:600px) {
+    .Editer_div{
+        position: absolute;
+        top:0px;
+        left:400px;
+    }
+    .Editer_pics_name{
+        position: absolute;
+        top:7955px;
+        left:125px;
+        width: 109px;
+        height:14px;
+        Font-family: Helvetica ;
+    Font-style: Regular;
+    Font-size: 12px;
+    Line-height: 100%;
+    text-Align: Center;
+    Vertical-align: Top;
+    Letter-spacing: 10%;
+    Fill: Solid #1C191A;
+    }
+    .Very_pery_makeup_editer{
+        position: absolute;
+        top:-347px;
+        left:-66px;
+        width:160px;
+        height:110px;
+       gap:10px;
+       background: url(../images/Elizabeth.png);
+      }
+      .Lipstikes_we_love_editer{
+        position: absolute;
+        top:-347px;
+        left:100px;
+        width:160px;
+        height:110px;
+       gap:10px;
+      }
+      .spring_scants_editer{
+        position: absolute;
+        top:-232px;
+        left:-66px;
+        width:160px;
+        height:110px;
+       gap:10px;
+      }
+      .Editer_simple_editer{
+        position: absolute;
+        top:-232px;
+        left:100px;
+        width:160px;
+        height:110px;
+       gap:10px;
+      }
+      .Banish_editer{
+        position: absolute;
+        top:-117px;
+        left:-66px;
+        width:160px;
+        height:110px;
+       gap:10px;
+      }
+      .Very_mekup_cream{
+        position: absolute;
+        top:-117px;
+        left:100px;
+        width:160px;
+        height:110px;
+       gap:10px;
+      }
+     
+    .Editers_background{
+        position: absolute;
+        top:8315px;
+        left:16px;
+        background-color: #181516;
+        width:160px;
+        height:16px;
+    }
+    .Editers_background2{
+        position: absolute;
+        top:8315px;
+        left:185px;
+        background-color: #181516;
+        width:160px;
+        height:16px;
+    }
+    
+    .Editers_background3{
+        position: absolute;
+        top:8200px;
+        left:18px;
+        background-color: #181516;
+        width:160px;
+        height:16px;
+    }
+    
+    .Editers_background4{
+        position: absolute;
+        top:8085px;
+        left:185px;
+        background-color: #181516;
+        width:160px;
+        height:16px;
+    }
+    
+    .Editers_background5{
+        position: absolute;
+        top:8084px;
+        left:17px;
+        background-color: #181516;
+        width:160px;
+        height:16px;
+    }
+    
+    .Editers_background6{
+        position: absolute;
+        top:8200px;
+        left:185px;
+        background-color: #181516;
+        width:160px;
+        height:16px;
+    }
+    .makeuplooks{
+        position: absolute;
+        top:-14px;
+        left:-10px;
+        width:200px;
+        height:32px;
+        color:#ffffff;
+        Font-family: Helvetica ;
+    Font-size: 10px;
+    Line-height: 32px;
+    text-Align: Center;
+    Vertical-align: Top;
+    }
+    .shampoos{
+        position: absolute;
+        top:8298px;
+        left:167px;
+        width:306px;
+        height:32px;
+        color:#ffffff;
+        Font-family: Helvetica ;
+    Font-size: 13px;
+    Line-height: 32px;
+    text-Align: Center;
+    Vertical-align: Top;
+    }
+    .rightaway{
+        position: absolute;
+        top:-18px;
+        left:-11px;
+        width:260px;
+        height:32px;
+        color:#ffffff;
+        Font-family: Helvetica ;
+    Font-size: 13px;
+    Line-height: 32px;
+    text-Align: Center;
+    Vertical-align: Top;
+    }
+    .veryMakeup{
+        position: absolute;
+        top:-14px;
+        left:-49px;
+        width:260px;
+        height:32px;
+        color:#ffffff;
+        Font-family: Helvetica ;
+    Font-size: 11px;
+    Line-height: 32px;
+    text-Align: Center;
+    Vertical-align: Top;
+    }
+    .Lipstains{
+        position: absolute;
+        top:-15px;
+        left:-41px;
+        width:250px;
+        height:32px;
+        color:#ffffff;
+        Font-family: Helvetica ;
+    Font-size: 11px;
+    Line-height: 32px;
+    text-Align: Center;
+    Vertical-align: Top;
+    }
+    .banishfrizz{
+        position: absolute;
+        top:8182px;
+        left:156px;
+        width:325px;
+        height:32px;
+        color:#ffffff;
+        Font-family: Helvetica ;
+    Font-size: 13px;
+    Line-height: 32px;
+    text-Align: Center;
+    Vertical-align: Top;
+    }
+    
+}

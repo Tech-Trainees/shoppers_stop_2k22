@@ -10,7 +10,7 @@ const Category=()=>{
     const[Category]=useState('CATEGORY IN FOCUS')
     const[shop]=useState('SHOP NOW')
     return(
-        <div>
+        <div className='Div_category'>
         <div  className='category '></div>
        <h1 className='focus_name '>{Category}</h1>
          <img src={Olay} alt='' className='olayimg '></img>

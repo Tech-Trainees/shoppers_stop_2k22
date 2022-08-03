@@ -1,9 +1,14 @@
-@media(max-width:350px){
+@media(max-width:600px){
+    .Div_category{
+        position: absolute;
+        top:0px;
+        left:400px;
+    }
     .category{
         position: absolute;
        background: #f4f4f4;
         top:7276px;
-        height:740px;
+        height:675px;
         width:360px;
     }
     .focus_name{

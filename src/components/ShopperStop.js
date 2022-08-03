@@ -2,7 +2,9 @@ import React from 'react'
 import { Advertiseblog } from './Advertiseblog'
 import AllproductsSlick from './AllproductsSlick'
 import Beauty_Category_Stores from './Beauty_Category_Stores'
+import Beauty_stop from './Beauty_stop'
 import Category from './Category_foucs'
+import Editer from './Editer_pics'
 import Exclusivess from './Exclusive_at_ss'
 import Fragrance_Store from './fragrance'
 import { Banner } from './MainBanner'
@@ -11,6 +13,10 @@ import BasicTabs from './Tabs'
 import Clearance_sale from './Clearance_sale'
 import First_citizen_program from './First-citizen-program'
 import TotalFooter from './TotalFooter'
+// import { Banner } from './MainBanner'
+// import More from './More_offers'
+// import BasicTabs from './Tabs'
+import Trunk from './Trunk_show'
 
 export const ShoppersStop = () => {
   return (
@@ -29,7 +35,7 @@ export const ShoppersStop = () => {
         <AllproductsSlick />
         <Advertiseblog />
 
-        <Beauty_Category_Stores/>
+        <Beauty_Category_Stores />
         <Fragrance_Store />
         <Exclusivess />
         <More/>
@@ -45,6 +51,9 @@ export const ShoppersStop = () => {
         <Category/>
         <Clearance_sale />
         <First_citizen_program/>
+        <Editer/>
+        <Trunk/>
+        <Beauty_stop/>
     </div>
         
   )

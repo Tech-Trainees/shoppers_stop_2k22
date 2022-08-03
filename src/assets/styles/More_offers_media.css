@@ -1,13 +1,15 @@
-@media(max-width:350px){
+@media(max-width:600px){
 .More_offers{
     position: absolute;
+    top:0px;
+    left:400px;
 }
 .More_offers_header{
     position: absolute;
     width:97px;
     height:14px;
     left:137px;
-    top:6974px;
+    top:6975px;
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 400;
