@@ -19,7 +19,10 @@ import TotalFooter from './TotalFooter'
 // import BasicTabs from './Tabs'
 import Trunk from './Trunk_show'
 
+// import SwipeableTextMobileStepper from './MainBannerCarousel'
+
 export const ShoppersStop = () => {
+
   return (
     <div>
       <header className='mainheader'>

@@ -4,6 +4,8 @@ import { Tabs,Tab,TextField,Box,Typography,InputAdornment } from '@mui/material'
 import  Search  from '@mui/icons-material/SearchTwoTone'
 import '../assets/styles/tabpanel.css'
 import Beautypic from '../assets/images/image 65.png'
+import AppRating from '../assets/images/apprating.png'
+import cartShop from '../assets/images/bag-2.png'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -46,6 +48,7 @@ export default function BasicTabs() {
   };
 
   return (
+    <>
     <Box >
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
@@ -68,8 +71,16 @@ export default function BasicTabs() {
           <Tab label="Luxe" {...a11yProps(1)} />
           <Tab label="Brands" {...a11yProps(2)} />
           <Tab label="Beauty Advice" {...a11yProps(3)} />
-
+          <div className='signindiv'><span className='signinName'>Sign In</span></div>
+          <div className='divjoincitizen'><span className='divjointhec'>Join in the</span><span className='divjoinfc'>First Citizen</span></div>
+          <div className='appRating'>
+            <img src={AppRating} alt='app rating'/>
+          </div>
+          <div className='appCart'>
+            <img src={cartShop} alt='app cart'/>
+          </div>
         </Tabs>
+        
       </Box>
       <TabPanel value={value} index={0}>
                       
@@ -83,6 +94,10 @@ export default function BasicTabs() {
       <TabPanel value={value} index={3}>
                  
       </TabPanel>
+   
     </Box>
+  
+    
+  </>
   );
 }

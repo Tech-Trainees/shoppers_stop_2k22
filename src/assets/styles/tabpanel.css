@@ -27,7 +27,8 @@ border: 1px solid #E7E7E7;
 .mainheader{
 overflow-x:hidden ;
 position: absolute;
-width: 100%;
+/* width: 100%; */
+width: 1440px;
 height: 40px;
 left: 0px;
 top: 0px;
@@ -200,11 +201,120 @@ text-align: left;
     }
 .MuiTabs-root{
 position: absolute;
-width: 100%;
+width: 1440px;
 height: 80px;
 left: 0px;
 top: 40px;
 
 background: #FFFFFF;
 box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.15);
+}
+
+.signindiv {
+position: absolute;
+width: 82px;
+height: 26px;
+left: 1060px;
+top: 34px;
+}
+
+.signinName{
+    position: absolute;
+left: 35.37%;
+right: 2.44%;
+top: 19.23%;
+bottom: 3.85%;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+/* Primary/Black/Black #231F20 */
+
+color: #231F20;
+
+}
+.divjoincitizen{
+border-radius: 0px;
+position: absolute;
+width: 95px;
+height: 32px;
+left: 1165px;
+top: 30px;
+
+/* Primary/Velvet/Velvet #AD184C */
+
+background: #AD184C;
+}
+.divjointhec{
+    position: absolute;
+width: 37px;
+height: 10px;
+left: 29px;
+top: 4px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+/* identical to box height */
+
+font-variant: small-caps;
+
+color: #FFFFFF;
+}
+.divjoinfc{
+    position: absolute;
+width: 69px;
+height: 15px;
+left: 13px;
+top: 14px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.appRating{
+ 
+left: 1275px;
+top: 35px;
+border-radius: 0px;
+position: absolute;
+/* left: 5.21%;
+right: 5.21%;
+top: 9.79%; */
+bottom: 9.79%;
+
+/* background: #292D32; */
+}
+.appCart{
+    position: absolute;
+    left: 1310px;
+top: 35px;
+}
+
+/* mobile site css */
+@media (max-width:360px){
+    .msiteheader{
+        position: absolute;
+        width: 360px;
+        height: 40px;
+        left: 0px;
+        top: 24px;
+
+        background: #f0afc7;
+    }
 }
