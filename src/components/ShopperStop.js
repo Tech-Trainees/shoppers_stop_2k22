@@ -18,6 +18,7 @@ import TotalFooter from './TotalFooter'
 // import More from './More_offers'
 // import BasicTabs from './Tabs'
 import Trunk from './Trunk_show'
+import OfferByTopBrands from './offersByTopBrands'
 
 // import SwipeableTextMobileStepper from './MainBannerCarousel'
 
@@ -38,6 +39,7 @@ export const ShoppersStop = () => {
       <Banner />
       <AllproductsSlick />
       <Advertiseblog />
+      <OfferByTopBrands/>
       <LuxeOffers />
 
       <BeautyCategoryStores />

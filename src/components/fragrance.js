@@ -2,6 +2,7 @@ import Modelpic from "../assets/images/ambassador_model.png";
 import Premiumpic from "../assets/images/premium_bottle.png";
 import "../assets/styles/frag.css";
 import Swipe from "./swipe.js";
+import MobileModelPic from "../assets/images/ambassador_model_mobile.png"
 
 export default function FragranceStore(){
 
@@ -13,8 +14,10 @@ return(
             <Swipe/>
             <div className="screen2">
                 <img src={Modelpic} ></img>
+                <div className="MobileModelPic" ></div>
                 <div  className="datenight"><h1>Date  Night  Special</h1>
-                <p style={{color:"#ffffff",opacity:"0.8",lineHeight:"40px"}}>Planning a Date Night? Keeping things Casual and seemingly spontaneous</p><br/>
+                <p style={{color:"#ffffff",opacity:"0.8",lineHeight:"40px"}} className="plannigDate1">Planning a Date Night? Keeping things Casual and seemingly spontaneous</p><br/>
+                <p  className="planningDate2"> Planning a Date Night?</p>
                 <button >VIEW BRANDS</button></div>
             </div><br/><br/>
 
