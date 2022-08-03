@@ -28,12 +28,13 @@
     top: 300px;
     background: #F7F6F9; 
     cursor: pointer;
+    width:1440px;
     }
 .MakeUpimg{
     position: absolute;
     width: 627px;
     height: 280px;
-    left: 42px;
+    left: 53px;
     top: 82px;
     cursor: pointer;
 }
@@ -41,7 +42,7 @@
     position: absolute;
     width: 627px;
     height: 280px;
-    left: 682px;
+    left: 712px;
     top: 82px;
     cursor: pointer;
 }
