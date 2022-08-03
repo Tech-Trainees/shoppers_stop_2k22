@@ -20,7 +20,7 @@ background: #F2F2F3;
     letter-spacing: 0.1em;
     text-transform: uppercase;   
     color: #1C191A;
-    top:5640px;
+    top:5656px;
 }
 .topRecommendationModelImage{
     position: absolute;
@@ -39,9 +39,10 @@ background: #F2F2F3;
 
 
 .recommendation_slide{
-    margin-left: 60px;
-    margin-top: 5679px;
     width: 966px;
+    position: absolute;
+    top: 5714px;
+   left: 60px;
 }
 
 

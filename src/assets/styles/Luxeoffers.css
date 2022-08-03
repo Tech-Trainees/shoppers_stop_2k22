@@ -1,0 +1,140 @@
+    .luxeoffersdiv1{
+        cursor: pointer;
+    position: absolute;
+    width: 1440px;
+    height: 774px;
+    top: 1888px;
+    /* margin-left:75px ; */
+    background: #231F20;
+    }
+    .luxeoffersdivgrid{
+      display: grid;
+      grid-template-columns: auto auto ;
+      column-gap: 0px;
+      row-gap: 10px;
+    
+    }
+    
+    .luxeoffersdiv2{
+      position:absolute;
+      width: 627px;
+      height: 280px;
+      left: 84px;
+      /* margin-top: 40px; */
+    background: url(../images/img1.png);
+    }
+    
+    .luxeoffersdiv3{
+      position: absolute;
+    width: 627px;
+    height: 280px;
+    left: 729px;
+    /* margin-top: 40px; */
+    
+    background: url(../images/img2.png);
+    }
+    
+    .luxeoffersdiv4{
+    position: absolute;
+    width: 627px;
+    height: 280px;
+    left: 84px;
+    top: 368px; 
+
+    /* position: absolute;
+width: 627px;
+height: 280px;
+left: 84px;
+top: 2268px; */
+    background: url(../images/img3.png);
+    }
+    
+    .luxeoffersdiv5{
+        position: absolute;
+    width: 627px;
+    height: 280px;
+    left:729px;
+    
+    top: 368px;
+    background: url(../images/img4.png);
+    }
+    .luxeoffersdivin1{
+     position:absolute; 
+    width: 603px;
+    height: 80px;
+    margin-left: 13px;
+    margin-top: 194px;
+    
+    background: #231F20;
+    opacity: 0.7;
+    backdrop-filter: blur(77px);
+    }
+    .luxeoffersp1{
+      
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    
+    .luxeoffersp2{
+      font-family: 'Helvetica Neue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: -25px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .luxeoffersp3{
+      font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+    .luxeofferslower{
+        position: absolute;
+      width: 114px;
+      height: 44px;
+      margin-left: 700px;
+      background: #DEA3B7;
+      top:690px;
+    }
+    .luxeoffersp4{
+      width: 72px;
+    height: 16px;
+    position: absolute;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    left: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    /* Primary/Black/Black #231F20 */
+    
+    color: #231F20;
+    
+    
+    /* Inside auto layout */
+    
+    }
