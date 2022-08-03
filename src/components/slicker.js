@@ -3,16 +3,15 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../assets/styles/frag.css";
+import "../assets/styles/topRecommendations.css"
 import SlideContent from "./slidecontent";
-
+import RecommendationSlide from "./recommendationslide.js"
 export default class Swipe extends Component {
   render() {
     const settings = {
       className: "center",
       infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 4,
+      slidesToShow: 3,
       swipeToSlide: 2,
       afterChange: function(index) {
         console.log(
@@ -20,16 +19,6 @@ export default class Swipe extends Component {
         );
       },
       responsive: [
-        {
-          breakpoint: 1000,
-          settings: {
-            slidesToShow: 3,
-            centerPadding: "20px",
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
         {
           breakpoint: 600,
           settings: {
@@ -42,7 +31,7 @@ export default class Swipe extends Component {
         {
             breakpoint: 400,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               centerPadding: "10px",
               slidesToScroll: 1,
           
@@ -53,19 +42,16 @@ export default class Swipe extends Component {
     
     };
     return (
-      <div style={{marginLeft:"47px"}}>
-        <Slider {...settings} className="slide" >
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-            <div ><SlideContent/> </div>
-
-
-
+      <div>
+        <Slider {...settings} className="recommendation_slide" >
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
+            <div ><RecommendationSlide/> </div>
 
         </Slider>
         </div>

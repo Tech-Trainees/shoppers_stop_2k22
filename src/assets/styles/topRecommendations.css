@@ -1,0 +1,221 @@
+.topRecommendationMainDiv{
+ position: absolute;
+width: 1440px;
+height: 574px;
+left: 0px;
+top: 5631px;
+background: #F2F2F3;
+}
+.topRecommendationheading{
+    position: absolute;
+    width: 283px;
+    height: 24px;
+    left: 579px;   
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;   
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;   
+    color: #1C191A;
+    top:5656px;
+}
+.topRecommendationModelImage{
+    position: absolute;
+    width: 647px;
+    height: 594px;
+    top: 5611px;
+    left: 874px;
+    background: url(../images/ModelImage.png);
+    background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+
+.recommendation_slide{
+    width: 966px;
+    position: absolute;
+    top: 5714px;
+   left: 60px;
+}
+
+
+.recommendation_product_tile{
+    width: 304px;;
+    height: 452px;
+    border: 1px solid rgba(155, 155, 155, 0.3);
+    background-color: #fff;
+}
+.recommendation_pricedet{
+   margin-left: 153px;
+}
+.recommendation_product_tile > img{
+    position: relative;
+    left: 27.12%;
+    right: 27.63%;
+    top: 7.50%;
+    bottom: 48.67%;
+}
+.recommendation_star{
+    background-image: url("../images/Star.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 55px;
+    top: 18%;
+    bottom: 92.48%;
+    
+}
+.recommendation_fea_del{
+    margin-left: -35px;
+}
+.recommendation_featured{ 
+    position: absolute;
+    margin-left: 75px;
+    top: 31%;
+    bottom: 92.48%;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #AD184C;
+ }
+ .recommendation_deliver{
+    position: absolute;
+    top: 18%;
+    margin-left: 174px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #231F20;
+    opacity: 0.8;
+ }
+ .recommendation_heartpng{
+    background-image: url("../images/heart.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+    top: 18%;
+    bottom: 92.48%;
+ }
+ .recommendation_prod_title{
+    padding-left: 20px;
+    padding-right: 13px;
+    color: #231F20;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+   opacity: 0.9;
+    line-height: 140%;
+ }
+ 
+.recommendation_sizes{
+    position: absolute;
+    float:left;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 23px;
+    margin-top: 0px;
+    line-height: 11px;
+    color: #231F20;
+}
+.recommendation_strike{
+    position: absolute;    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 78%;
+    margin-top:4px;
+    text-decoration-line: line-through;
+    color: #979596;
+}
+.recommendation_pricedet h3{
+    position: absolute;
+    /* top: 65%; */
+    margin-left: -130px;
+    margin-top: 0px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 100%;
+    color: #AD184C;
+}
+.recommendation_pricedet b{
+    position: absolute;
+    /* top: 70.5%; */
+    margin-left: 55px;
+    margin-top: 2px;
+    opacity: 0.8;
+    font-size: 17px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+}
+.recommendation_gift{
+    position: absolute;
+    /* top: 78%; */
+    margin-left: 24px;
+    margin-top: 10px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #231F20;
+    opacity: 0.8;
+}
+
+.recommendation_btn-2{border:1px solid #DEA3B7;}
+.recommendation_btncart{
+    width:150px;
+    height:47px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: -1px;
+    line-height: 140%;
+    margin-top: -1px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    opacity: 0.8;
+}
+.recommendation_btnbuy{
+    position: absolute;
+    margin-left: 151px;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 1px;
+    height: 54px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 140%;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    opacity: 0.7;
+}

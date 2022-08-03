@@ -20,7 +20,7 @@ return(
 
             <div  className="screen3">
                 <div className="premium"><h1>Premium Fragrances</h1>
-                <p>Planning a Date Night? Keeping things Casual and seemingly spontaneous</p>
+                <p>Planning a Date Night? Keeping things Casual and seemingly spontaneous</p><br/>
                 <button >VIEW BRANDS</button></div>
                 <img src={Premiumpic} ></img>
             </div>

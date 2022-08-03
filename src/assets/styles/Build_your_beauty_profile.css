@@ -1,7 +1,9 @@
 .Beauty_Category_Storesdiv{
     position: absolute;
     top: 2702px;
-    left: 156px;
+    /* left: 156px; */
+
+
     
 }
 .Baseunsplashimg{
@@ -11,7 +13,7 @@
 }
 .unsplashimg{
     position: relative;
-    width: 1349px;
+    width: 1440px;
     left: 0px;
     height: 180px;
     cursor: pointer;

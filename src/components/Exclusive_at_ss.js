@@ -1,8 +1,9 @@
 import '../assets/styles/exclusive_at_ss.css'
-
+import TopRecommendations from './topRecommendations.js'
 
 function Exclusivess() {
     return (
+        <>
         <div>
             <div className="title">exclusive at ss beauty </div>
             <div className='container'>
@@ -34,6 +35,8 @@ function Exclusivess() {
                 </div>
             </div>
         </div>
+        <TopRecommendations/>
+        </>
     )
 }
 export default Exclusivess;
