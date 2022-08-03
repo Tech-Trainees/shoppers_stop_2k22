@@ -5,7 +5,7 @@ import wedding_makeup from '../assets/images/wedding_makeup.png'
 import wedding_planing from '../assets/images/wedding_planing.png'
 import wedding_skincare from '../assets/images/wedding_skincare.png'
 import Polygon from '../assets/images/Polygon.png'
-const Beauty_stop=()=>{
+const Beautystop=()=>{
     return(
         <div className='Beauty_div'>
         <h2 className='Beauty_stop'>The Beauty Stop</h2>
@@ -53,4 +53,4 @@ const Beauty_stop=()=>{
         </div>
     )
 }
-export default Beauty_stop
+export default Beautystop

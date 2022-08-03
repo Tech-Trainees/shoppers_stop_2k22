@@ -3,7 +3,7 @@ import Premiumpic from "../assets/images/premium_bottle.png";
 import "../assets/styles/frag.css";
 import Swipe from "./swipe.js";
 
-export default function Fragrance_Store(){
+export default function FragranceStore(){
 
 return(
     <>
