@@ -37,7 +37,7 @@ background: #dea3b736;
 }
 .mainheadercontentgta{
     position: absolute;
-    left: 53.96%;
+    left: 63.96%;
     right: 77.8%;
     top: 0%;
     bottom: 5.56%;
@@ -54,7 +54,7 @@ background: #dea3b736;
 }
 .mainheadercontentgc{
     position: absolute;
-left: 61.96%;
+left: 72.96%;
 right: 77.8%;
 top: 0%;
 bottom: 5.56%;
@@ -68,7 +68,7 @@ line-height: 17px;
 .mainheadercontentse{
     position: absolute;
     width: 200px;
-    left: 70.62%;
+    left: 80.62%;
     right: 54.09%;
     top: 0%;
     bottom: 5.56%;
@@ -82,7 +82,7 @@ line-height: 17px;
 .mainheadercontenth{
     position: absolute;
     width: 200px;
-    left: 93.53%;
+    left: 91.53%;
     right: 0%;
     top: 0%;
     bottom: 5.56%;
@@ -95,14 +95,13 @@ line-height: 17px;
 }
 .mainheader-clr{
     position: absolute;
-    left: 7.43%;
+    left: 85px;
     right: 84.31%;
     top: 0.09%;
     bottom: 99.77%;
-    
     font-family: 'Helvetica Neue';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500px;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
@@ -111,6 +110,19 @@ line-height: 17px;
     /* Primary/Black/Black #231F20 */
     
     color: #231F20;
+}
+.Bengaluru{
+    position: absolute;
+    top:-7px;
+    left:20px;
+    width:119px;
+    height:17px;
+    font-size:14px;
+}
+.search_btn_symbol{
+    position: absolute;
+    left:90px;
+    top:5px;
 }
 .mainheader-clr:hover{
     cursor: pointer;

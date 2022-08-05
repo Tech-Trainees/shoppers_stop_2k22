@@ -35,7 +35,7 @@
     width: 1271px;
     margin: auto;
     height: 280px;
-    left: 85px;
+    left: 80px;
     top:600px;
     background: linear-gradient(97deg, #796FB8 24.53%,  #443891 71.82%);
 }
@@ -78,7 +78,7 @@
     position: absolute;
     width: 1271px;
     height: 280px;
-    left: 85px;
+    left: 80px;
     top:920px;
     background: #EBB869
 }
@@ -111,11 +111,6 @@
     line-height: 16px;
     cursor: pointer;
 }
-
-
-
-
-
 .product_tile{
     width:304px;
     height: 452px;
@@ -131,7 +126,7 @@
 .slide{  
     width:1288px;
     position: absolute;
-    left: 76px;
+    left: 177px;
 }
 .product_tile > img{
     position: relative;

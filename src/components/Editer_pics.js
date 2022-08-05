@@ -16,6 +16,7 @@ const Editer=()=>{
     const[banishfrizz]=useState('Moisturising shampoos that banish frizz')
     return(
         <div className='Editer_div'>
+        
         <h1 className='Editer_pics_name'>Editor’s Picks</h1>
           <div className='Grid_editer'>
           <img src={Very_mekup} alt='' className='Very_mekup_cream' ></img>

@@ -223,11 +223,11 @@ background-color: #f3f3f3;
     letter-spacing: 1px;
     
 }
-@media(max-width:600px){
+@media(max-width:360px){
     .Beauty_div{
         position: absolute;
         top:0px;
-        left:400px;
+        left:16px;
     }
     .Beauty_stop{
         position: absolute;

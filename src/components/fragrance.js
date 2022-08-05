@@ -9,7 +9,7 @@ export default function FragranceStore(){
 return(
     <>
         <div className="fragrance">
-            <h2 className="fragrance_topic" >FRAGRANCE STORE</h2><hr style={{marginTop:"28px",marginLeft:"55px",marginRight:"55px",background:"blue"}}/>
+            <h2 className="fragrance_topic" >FRAGRANCE STORE</h2><hr style={{marginTop:"28px",marginLeft:"77px",marginRight:"84px",background:"blue"}}/>
             <p className="fragrance_para">Fragrances You Will Love</p>
             <Swipe/>
             <div className="screen2">

@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 
-@media (max-width:350px){
+@media (max-width:360px){
     .Profile_Title{
         position: absolute;
         width: 251px;

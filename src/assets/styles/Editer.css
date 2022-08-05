@@ -160,11 +160,11 @@ text-Align: Center;
 Vertical-align: Top;
 }
 
-@media(max-width:600px) {
+@media(max-width:360px) {
     .Editer_div{
         position: absolute;
         top:0px;
-        left:400px;
+        left:16px;
     }
     .Editer_pics_name{
         position: absolute;

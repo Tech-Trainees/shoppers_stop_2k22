@@ -1,6 +1,7 @@
 import React from "react";
 import '../assets/styles/Trending_Stores.css';
-import MakeUp from '../assets/images/makeup.png'; 
+import makeup from '../assets/images/makeup.png'; 
+//import makeUp from '../assets/images/makeup.png'; 
 import The_BestDeals from '../assets/images/The_BestDeals.png'; 
 
 function TrendingStores() {
@@ -11,7 +12,7 @@ function TrendingStores() {
         Trending stores
         </div>
         <div className="MakeUpimg">
-           <img src={MakeUp} className='MakeUp' alt='MakeUp Banner'/>
+           <img src={makeup} className='MakeUp' alt='MakeUp Banner'/>
         </div>
         <div className="The_BestDealsimg">
            <img src={The_BestDeals} className='The_BestDeals' alt='BestDeals Banner'/>
