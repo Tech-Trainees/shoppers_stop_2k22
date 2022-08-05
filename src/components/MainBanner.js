@@ -22,11 +22,13 @@ export const Banner = () => {
   }
   let slides = [
     {
-      image:Bannerimg1, 
+      image:Bannerimg1,
+      
       imgid:1,
     },
     {
       image:Bannerimg2,
+     
       imgid:2,
     },
     {

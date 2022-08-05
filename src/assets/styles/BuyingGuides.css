@@ -1,0 +1,145 @@
+.BuyingGuidesMainHead{
+    position: absolute;
+    width: 183px;
+    height: 24px;
+    left: 629px;
+    top: 6245px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    /* Primary/Black/Black #1C191A */
+    
+    color: #1C191A;
+    
+    
+}
+.BuyingGuidesPic1{
+    position: absolute;
+width: 412px;
+height: 264px;
+left: 84px;
+top: 6287px;
+
+/* background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 68%); */
+background: url(../images/buyGuidespic1.png);
+
+}
+ .BuyingGuidesPic2{
+    position: absolute;
+    width: 412px;
+    height: 264px;
+    left:514px;
+    top: 6287px;
+    
+background: url(../images/buyGuidespic2.png);
+} 
+.BuyingGuidesPic3{
+    position: absolute;
+    width: 412px;
+    height: 264px;
+    left: 944px;
+    top: 6287px;
+    
+background: url(../images/buyGuidespic3.png);
+} 
+.BuyingGuidesInn{
+    position: absolute;
+width: 300px;
+height: 48px;
+left: 148px;
+top: 6485px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #E0E0E0;
+}
+.BuyingGuidesInn2{
+    position: absolute;
+width: 300px;
+height: 48px;
+left: 565px;
+top: 6485px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #E0E0E0;
+}
+.BuyingGuidesInn3{
+    position: absolute;
+width: 300px;
+height: 48px;
+left: 995px;
+top: 6485px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #E0E0E0;
+}
+.BuyingGuidesRec1{
+    position: absolute;
+width: 412px;
+height: 264px;
+left: 84px;
+top: 6287px;
+background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 68%);
+}
+.BuyingGuidesRec2{
+    position: absolute;
+width: 412px;
+height: 264px;
+left:514px;
+top: 6287px;
+background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 68%);
+}
+.BuyingGuidesRec3{
+    position: absolute;
+width: 412px;
+height: 264px;
+left:944px;
+top: 6287px;
+background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 68%);
+}
+.BuyingGuidespolygon{
+
+    position: absolute;
+    width: 50px;
+  height: 50px;
+  border-radius: 50%;;
+    left: 1131px;
+    top: 6369px;
+    background: #FFFFFF;
+    
+}
+.BuyingGuidesvideoimg{
+position: absolute;
+width: 18.16px;
+height: 17.63px;
+left: 1151.32px;
+top: 6385.69px;
+background: url(../images/Polygon.png);
+background-repeat: no-repeat;
+border-radius: 1px; 
+transform: rotate(360deg); 
+}
+
+
+
+
+

@@ -19,9 +19,10 @@
      margin: 0 auto;
      /* margin-left: -118px; */
 }
-/* .slick-slide img{
-    height: 370px;
-} */
+ .slick-track{
+    /* width:1272px; */
+    /* height: 370px; */
+} 
 .bannerimgcss{
     /* filter: back ; */
     margin-left: -10px; 

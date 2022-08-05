@@ -1,14 +1,16 @@
 // import './App.css';
 
+import { MsiteMaintab } from "./components/MsiteMainTab";
 import { ShoppersStop } from "./components/ShopperStop";
+import ShowWindowDimensions from "./WResize";
 
-// import BasicTabs from "./components/Main";
 
 function App() {
   return (
     <div className="App">
-      <ShoppersStop />
-  
+      {/* <ShoppersStop /> */}
+    <ShowWindowDimensions />
+    {/* <MsiteMaintab /> */}
     </div>
   );
 }
