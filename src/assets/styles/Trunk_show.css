@@ -1,0 +1,151 @@
+.Trunk_show{
+    position: absolute;
+    top:9015px;
+    left:84px;
+    width:1378px;
+    height:550px;
+    background-color: #f9f9f9;
+}
+.Trunk{
+    position: absolute;
+    top:23px;
+    left:644px;
+    width:153px;
+    height:24px;
+    Font-family: Helvetica ;
+Font-size: 20px;
+Line-height: 100%;
+text-Align: Center;
+Vertical-align: Top;
+Letter-spacing: 10%;
+Fill: Solid #1C191A;
+}
+.Trunk_Ladies{
+    position: absolute;
+    top:75px;
+    left:112px;
+    width: 514px;
+    height:360px;
+}
+.Trun_Makeup{
+    position: absolute;
+    top:120px;
+    left:650px;
+    width: 514px;
+    height:360px;
+}
+.fashion_tips{
+    position: absolute;
+    top:435px;
+    left:112px;
+    font-weight:400px;
+    font-size: 17px;
+    line-height: 22.4px;
+    color: rgb(173, 36, 86);
+}
+.fashion_tips_p{
+    position: absolute;
+    top:456px;
+    left:112px;
+    font-weight:400px;
+    font-size: 11px;
+    line-height: 22.4px;
+   color: #7B7979
+}
+.fashion_tips2{
+    position: absolute;
+    top:60px;
+    left:1015px;
+    font-weight:400px;
+    font-size: 17px;
+    line-height: 22.4px;
+    color: rgb(173, 36, 86);
+}
+.fashion_tips_p1{
+    position: absolute;
+    top:43px;
+    left:990px;
+    font-weight:400px;
+    font-size: 11px;
+    line-height: 22.4px;
+    color: #7B7979
+}
+@media(max-width:360px){
+    .Trunk_div{
+        position: absolute;
+        top:0px;
+        left:16px;
+    }
+    .Trunk_show{
+        position: absolute;
+        top:8342px;
+        left:0px;
+        width:366px;
+        height:204px;
+        background-color:#f2f2f3;
+    }
+    .Trunk{
+        position: absolute;
+        top:5px;
+        left:128px;
+        width:92px;
+        height:14px;
+        Font-family: Helvetica ;
+    Font-size: 12px;
+    Line-height: 100%;
+    text-Align: Center;
+    Vertical-align: Top;
+    Letter-spacing: 10%;
+    Fill: Solid #1C191A;
+    }
+    .Trunk_Ladies{
+        position: absolute;
+        top: 34px;
+        left:18px;
+        width: 160px;
+        height:120px;
+    }
+    .Trun_Makeup{
+        position: absolute;
+        top:60px;
+        left:185px;
+        width: 160px;
+        height:120px;
+    }
+    .fashion_tips{
+        position: absolute;
+        top:143px;
+        left:18px;
+        font-weight:400px;
+        font-size: 12px;
+        line-height: 22.4px;
+        color: rgb(173, 36, 86);
+    }
+    .fashion_tips_p{
+        position: absolute;
+        top:160px;
+        left:18px;
+        font-weight:400px;
+        font-size: 9px;
+        line-height: 22.4px;
+       color: #7B7979
+    }
+    .fashion_tips2{
+        position: absolute;
+        top:21px;
+        left:250px;
+        font-weight:400px;
+        font-size: 10px;
+        line-height: 22.4px;
+        color: rgb(173, 36, 86);
+    }
+    .fashion_tips_p1{
+        position: absolute;
+        top:32px;
+        left:213px;
+        font-weight:400px;
+        font-size: 8px;
+        line-height: 22.4px;
+        color: #7B7979
+    }
+}

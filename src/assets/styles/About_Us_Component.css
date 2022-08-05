@@ -1,0 +1,214 @@
+.About_Us_div{
+    position: absolute;
+    width: 85.97px;
+    height: 22px;
+    left: 64.6px;
+    top: 11538px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #AD184C;
+}
+.Top_Categories_div{
+    position: absolute;
+    width: 140px;
+    height: 22px;
+    left: 300.1px;
+    top: 11538px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #AD184C;
+}
+.Quick_Links_div{
+    position: absolute;
+    width: 108px;
+    height: 22px;
+    left: 565px;
+    top: 11538px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #AD184C;
+}
+.Help_div{
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 801.29px;
+    top: 11538px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #AD184C;
+}
+.Policies_div{
+    position: absolute;
+    width: 73.01px;
+    height: 22px;
+    left: 1037.89px;
+    top: 11534px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #AD184C;
+}
+.Inspire_Me_div{
+    position: absolute;
+    width: 97.98px;
+    height: 22px;
+    left: 1225.49px;
+    top: 11534px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #AD184C;
+}
+.aboutUsList_map{
+    width: 147px;
+    height: 20px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #313131;
+    margin-top: 11px;
+}
+.topCategoriesData_map{
+    width: 166px;
+    height: 20px;
+    left: 329.1px;
+    bottom: 512px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #313131;
+    margin-top: 11px;
+}
+.quickLinksList_map{
+    width: 92px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #313131;
+    margin-top: 11px;
+}
+.helpDataList_map{
+    width: 137px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #313131;
+    margin-top: 11px;
+}
+.policiesList_map{
+    width: 121px;
+    height: 20px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #313131;
+    margin-top: 11px;
+}
+.inspireMeList_map{
+    width: 100px;
+    height: 20px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #313131;
+    margin-top: 11px;
+}
+.lastdivline{
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 12044px;
+    border: 1px solid #EAE9EF;
+}
+.rightsReserved{
+    position: absolute;
+    width: 275.81px;
+    height: 52px;
+    left: 79.93px;
+    /* bottom: 183px; */
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #292D32;
+    top: 12074px;
+}
+.PrivacyPolicy_lastdiv{
+    position: absolute;
+    width: 75.95px;
+    height: 17px;
+    left: 1000.32px;
+    bottom: 185px;
+    top: 12074px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #292D32;
+}
+.Conditions_lastdiv{
+    position: absolute;
+    width: 104.93px;
+    height: 17px;
+    left: 1123.25px;
+    bottom: 185px;
+    top: 12074px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #292D32;
+}
+.Disclaimer_lastdiv{
+    position: absolute;
+    width: 56px;
+    height: 17px;
+    left: 1265.15px;
+    bottom: 185px;
+    top: 12074px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #292D32;
+}

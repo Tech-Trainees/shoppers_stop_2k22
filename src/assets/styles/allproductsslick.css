@@ -9,7 +9,7 @@ body{
  width: 1268px; 
 height: 184px;
 left: 84px;
-top: 584px;
+top: 630px;
 }
 .productSlickDiv{
     /* width: 50%; */
@@ -22,7 +22,7 @@ padding: 0px;
 gap: 16px;
 
 position: absolute;
-width: 1268px;
+width: 1290px;
 height: 184px;
 left: 84px;
 top: -34px;
@@ -132,10 +132,10 @@ border: none;
 /* 3rd component advertisement div */
 .adv-product-div{
     position: absolute;
-    width: 1272px;
+    width: 1270px;
     height: 320px;
     /* left: 84px; */
-    left: 156px;
+    left: 84px;
     top: 808px;
     background: #a1cdd352;
 }

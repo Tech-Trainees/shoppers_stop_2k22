@@ -9,6 +9,10 @@
     width: 1272px;
     border-radius: 0px;
 }
+
+.mainbanner:hover{
+    cursor: pointer;
+}
 .mainbannerimgpos {
     height: 370px;
      width: 1272px; 
@@ -20,17 +24,22 @@
 } */
 .bannerimgcss{
     /* filter: back ; */
-    /* margin-left: -50px; */
+    margin-left: -10px; 
     height: 370px;
     /* width: 1272px;
     left: 0px;
     top: 0px; */
     border-radius: 0px;
-    background: #C4C4C4;
+    background: url(../images/banner1.png) #C4C4C4;
 
 }
+.slick-dots{
+    position: absolute;
+    left:-100px;
+}
 .slick-list{
-    height: 370px;
+    height: 458px;
+    left:-105px;
      /* margin-right:20 20px;  */
      /* width: 120%;  */
 }
@@ -74,7 +83,7 @@ text-align: center;
 
 color: #FFFFFF;
 }
-.btn-discover{
+.btn-discover1{
     width: 105px;
 height: 16px;
 
@@ -111,4 +120,31 @@ top: calc(50% - 44px/2 + 59px);
 /* Primary/Black/Black #231F20 */
 
 background: #231F20;
+}
+.backgroundcolor_div{
+    position: absolute;
+    top:410px;
+    left:655.5px;
+    background-color: #231F20;
+    width:157px;
+    height: 44px;
+    Font-size: 12px;
+    Line-height:42px;
+    text-Align: Center;
+    Vertical-align: Top;
+    Letter-spacing: 1px;
+    color: #DEA3B7
+}
+.header_paragrap{
+    position: absolute;
+    top:362px;
+    left:545.5px;
+    color:white
+}
+.heder_name_head{
+position:absolute;
+top:310px;
+left:485px;
+color:white;
+font-size:50px ;
 }
