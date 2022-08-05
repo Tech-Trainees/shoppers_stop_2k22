@@ -1,8 +1,8 @@
-@media(max-width:600px){
+@media(max-width:360px){
     .Div_category{
         position: absolute;
         top:0px;
-        left:400px;
+        left:16px;
     }
     .category{
         position: absolute;

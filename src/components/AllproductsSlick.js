@@ -115,6 +115,7 @@ export default function AllproductsSlick() {
     ]
       return (
         <div className='productsSlick'>
+        
             <Slider {...settings}>
               {slides.map((data) => (
                   <div key={data.imgId} >
@@ -134,6 +135,7 @@ export default function AllproductsSlick() {
               ))}
                {/* style={{width:'100%'}} */}
             </Slider>
+           
         </div>
       );
     }

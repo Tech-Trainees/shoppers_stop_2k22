@@ -23,28 +23,23 @@ export const Banner = () => {
   let slides = [
     {
       image:Bannerimg1,
-      title: 'Own Your Beauty Power',
-      caption:'An experiential, interactive and inspirational beauty site ',
-      btnName:'Discover Now',
+      
       imgid:1,
     },
     {
       image:Bannerimg2,
-      title:'Own Your Beauty Power',
-      caption:'An experiential, interactive and inspirational beauty site ',
-      btnName:'Discover Now',
+     
       imgid:2,
     },
     {
       image:Bannerimg3,
-      title:'Own Your Beauty Power',
-      caption:'An experiential, interactive and inspirational beauty site ',
-      btnName:'Discover Now',
       imgid:3,
     },
   ]
 
   return(
+    <>
+   
     <div className='mainbanner'>
       <Slider {...settings}>
         {slides.map((data) => (
@@ -52,17 +47,24 @@ export const Banner = () => {
             <div key={data.imgid}>
               <img src={data.image} alt='banner img' className='bannerimgcss'/>
               <span className='bannertitle'>
-                {data.title}
+            
               </span>
               <div className='bannercaption'>
-                {data.caption}
+
               </div>
-              <button value='Discover Now' className='btn-discover'>{data.btnName}</button>
+     
           </div>          
                       
         ))}
 
         </Slider >
-      </div>  
+      </div> 
+      <div className='heder_name_head'>Own Your Beauty Power</div>
+     
+      <p className='header_paragrap'>An experiential, interactive and inspirational beauty site </p>
+      <div className='backgroundcolor_div'>
+      DISCOVER NOW
+      </div>
+      </> 
     )
 }

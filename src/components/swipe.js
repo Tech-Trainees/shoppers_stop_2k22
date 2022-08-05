@@ -53,7 +53,7 @@ export default class Swipe extends Component {
     
     };
     return (
-      <div style={{marginLeft:"47px"}}>
+      <div style={{marginLeft:"77px"}}>
         <Slider {...settings} className="slide" >
             <div ><SlideContent/> </div>
             <div ><SlideContent/> </div>
