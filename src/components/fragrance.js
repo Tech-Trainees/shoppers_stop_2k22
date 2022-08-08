@@ -16,14 +16,15 @@ return(
                 <img src={Modelpic} ></img>
                 <div className="MobileModelPic" ></div>
                 <div  className="datenight"><h1>Date  Night  Special</h1>
-                <p style={{color:"#ffffff",opacity:"0.8",lineHeight:"40px"}} className="plannigDate1">Planning a Date Night? Keeping things Casual and seemingly spontaneous</p><br/>
-                <p  className="planningDate2"> Planning a Date Night?</p>
+
+                <p style={{color:"#ffffff",opacity:"0.8",lineHeight:"40px"}}>Planning a Date Night? <span className="invisible">Keeping things Casual and seemingly spontaneous</span></p><br/>
+
                 <button >VIEW BRANDS</button></div>
             </div><br/><br/>
 
             <div  className="screen3">
                 <div className="premium"><h1>Premium Fragrances</h1>
-                <p>Planning a Date Night? Keeping things Casual and seemingly spontaneous</p><br/>
+                <p>Planning a Date Night? <span className="invisible"> Keeping things Casual and seemingly spontaneous</span></p><br/>
                 <button >VIEW BRANDS</button></div>
                 <img src={Premiumpic} ></img>
             </div>

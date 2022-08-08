@@ -17,8 +17,8 @@ export default function SlideContent(){
             </div><br/><br/>
             <u className="gift">Free Gift Available</u><br/><br/>
         </div>
-        <div className="btn-2"><div className="btncart" style={{background:"#DEA3B7"}}><p>ADD TO CART</p></div>  
-        <div className="btnbuy"><p>BUY NOW</p></div>
+        <div className="btn-2"><div className="btncart -2" style={{background:"#DEA3B7"}}>ADD TO CART</div>  
+        <div className="btnbuy -2">BUY NOW</div>
         </div>
     </div>
     )

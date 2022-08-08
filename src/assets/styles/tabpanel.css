@@ -25,9 +25,9 @@ border: 1px solid #E7E7E7;
 }
 
 .mainheader{
-overflow-x:hidden ;
+/* overflow-x:hidden ; */
 position: absolute;
-/* width: 100%; */
+
 width: 1440px;
 height: 40px;
 left: 0px;
@@ -104,11 +104,6 @@ line-height: 17px;
     font-weight: 500px;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-    
-    
-    /* Primary/Black/Black #231F20 */
-    
     color: #231F20;
 }
 
@@ -141,12 +136,7 @@ line-height: 17px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
-    
     text-transform: capitalize;
-    
-    /* Primary/Black/Black #231F20 */
-    
     color: #231F20;
     
 }
@@ -165,9 +155,6 @@ line-height: 20px;
 /* identical to box height */
 
 text-transform: capitalize;
-
-/* Primary/Black/Black #231F20 */
-
 color: #231F20;
 
 }
@@ -177,19 +164,15 @@ left: 50.96%;
 right: 46.27%;
 top: 0px;
 bottom: -18.75%;
-
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
-/* identical to box height */
 text-transform: capitalize;
-/* Primary/Black/Black #231F20 */
 color: #231F20;
 }
 #simple-tab-3{
-    /* font-family: Helvetica Neue; */
 font-size: 16px;
 font-weight: 500;
 line-height: 20px;
@@ -208,9 +191,7 @@ text-align: left;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     text-transform: capitalize;
-    /* Primary/Black/Black #231F20 */
     color: #231F20;
     }
 .MuiTabs-root{
