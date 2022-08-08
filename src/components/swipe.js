@@ -36,7 +36,7 @@ export default class Swipe extends Component {
             slidesToShow: 2,
             centerPadding: "10px",
             slidesToScroll: 2,
-        
+            infinite: true,
           }
         },
         {
@@ -45,7 +45,7 @@ export default class Swipe extends Component {
               slidesToShow: 2,
               centerPadding: "10px",
               slidesToScroll: 1,
-          
+              infinite: true,
             }
           },
         

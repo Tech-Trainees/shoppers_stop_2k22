@@ -267,71 +267,42 @@
     opacity: 0.8;
 }
 
-.btn-2{border:1px solid #DEA3B7;}
-.btncart{
-    width:152px;
-    height:47px;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 14px;
-    margin-left: -1px;
-    line-height: 140%;
-    margin-top: -1px;
-    font-weight: bold;
-    font-family: 'Helvetica Neue';
-    font-style: normal;
-    opacity: 0.8;
+.btn-2{border:1px solid #DEA3B7;
+display: flex;
+width: 304.5px;
+height: 45px;
+margin-left: -1px;
 }
-.btnbuy{
-    position: absolute;
-    margin-left: 166px;
-    width: 152px;
-    height: 54px;
-    align-items: center;
+.btn-2 div{
+    flex:1;
     text-align: center;
     letter-spacing: 1px;
-    height: 54px;
     font-size: 14px;
     font-weight: bold;
-    line-height: 140%;
+    line-height:45px;
     font-family: 'Helvetica Neue';
     font-style: normal;
     opacity: 0.7;
 }
+hr{
+    margin-top: 28px;
+margin-left: 77px;
+margin-right: 84px;
+background: blue none repeat scroll 0% 0%;
+}
 
-
-@media only screen and (max-width:360px) {
-    .datenight h1{
-        /* Date Night Special */
-
-
-position: relative;
-width: 170px;
-height: 22px;
-right: 556px;
-/* left: 147px; */
-/* top: 2900px; */
-
-font-family: 'Helvetica Neue';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-text-transform: capitalize;
-
-color: #FFFFFF;
-
-    }
+@media only screen and (max-width:400px) {
+   
     .fragrance{
         position: absolute;
         width: 360px;
-        height: 680px;       
+        height: 675px;       
         margin: 0px;
         background: #231F20;
+    }
+    hr{
+        width: 90%;
+margin-left: 16px;
     }
     .fragrance_topic{
         position: absolute;
@@ -350,50 +321,291 @@ color: #FFFFFF;
         color: #FFFFFF;
     
     }
+    .fragrance_para{
+        color: #FFFFFF;
+        opacity: 0.8;
+        margin-top: 23px;
+        text-align: center;
+        font-size: 12px;
+
+    }
     .screen2 , .screen3{
-        position: absolute;
-        width: 328px;
+        width: 338px;
         height: 116px;
-        left: 16px;
+
+    }
+    .screen3 {
+        position: absolute;
+        left: 13px;
+        top: 542px;
+        background: #EBB869;
+    }
+    .screen2 {
+        position: absolute;
+        margin: auto;
+        left: 13px;
+        top: 410px;
+        background: linear-gradient(97deg, #796FB8 24.53%, #443891 71.82%);
     }
     .screen2 img{
-        display: none
-    }
-    .MobileModelPic{
-        position: absolute;
-width: 165.88px;
-height: 116px;
-/* left: 181.88px; */
-/* top: 2884px; */
-
-background: url(../images/ambassador_model_mobile.png);
-filter: drop-shadow(19px 35px 63px rgba(74, 63, 142, 0.57));
-/* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    }
-     .screen3 img{
-        width: 165.88px;
-height: 116px;
-/* left: 181.88px; */
-/* top: 2884px; */
-
-background: url(../images/ambassador_model_mobile.png);
-filter: drop-shadow(19px 35px 63px rgba(74, 63, 142, 0.57));
-/* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    }
-     .screen3 img{
-        width: 165.88px;
+        width: 205px;
         height: 116px;
+        position: absolute;
+        left: 5px;
+    }
+    .datenight {
+        position: absolute;
+        left: 180px;
+
+}
+.datenight p{
+    font-size: 13px;
+    margin-top: -28px;
+    margin-left: -15px;
+}
+.datenight button {
+    width: 123px;
+    height: 28px;
+    background-color: #231F20;
+    color: #DEA3B7;
+    border-style: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1px;
+    cursor: pointer;
+    position: absolute;
+    top: 77px;
+    left: -15px;
+
+    }
+    .datenight p{
+        font-size: 13px;
+        margin-top: -28px;
+        margin-left: -15px;
+    }
+    .datenight button {
+        width: 123px;
+        height: 28px;
+        background-color: #231F20;
+        color: #DEA3B7;
+        border-style: none;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 1px;
+        cursor: pointer;
+        position: absolute;
+        top: 77px;
+        left: -15px;
     }
 
-/*     
+    .invisible{
+        display: none;
+    }
+    .datenight h1{
+        font-weight: 700;
+        font-size: 19px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        color: #FFFFFF;
+        margin-top: -3px;
+        margin-left: -15px;
+        opacity: 0.9;
+}
+.premium{float: left;
+    margin-left: 9px;
+}
+.premium h1 {
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    color: #231F20;
+    line-height: 20px;
+    opacity: 0.9;
+}
+.premium p{
+    font-size: 13px;
+}
+.premium button {
+    width: 123px;
+    height: 28px;
+    background-color: #231F20;
+    color: #DEA3B7;
+    border-style: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+}
+.screen3 img {
+    float: right;
+    height: 116px;
+    width: 158px;
+    position: absolute;
+}
+
+
+
+.slide{
+    width: 355px;
+    position: absolute;
+    left: 108px;
+}
+.slick-prev{display: none;}
     .product_tile{
         width:160px;
         height: 305px;
         border: 1px solid rgba(155, 155, 155, 0.3);
         background-color: #fff;
     }
-
-
+    .star{
+        background-image: url("../images/Star.png");
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        margin-left: 53px;
+        top: 6%;
+    }
+    .featured {
+        position: absolute;
+        margin-left: 77px;
+        top: 17.2%;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #AD184C;
+        letter-spacing: 1px;
+    }
+    .deliver {
+        position: absolute;
+        top: 31.5%;
+        margin-left: 56px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #231F20;
+        opacity: 0.8;
+        letter-spacing: 1px;
+    }
+    .product_tile > img{
+        width: 61px;
+        height: 77px;
+        position: relative;
+        left: 29.88%;
+        top: 6.38%;
+    }
+    .prod_title{
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #231F20;
+      }
+      .sizes{
+        position: absolute;
+        float: left;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        margin-left: 21px;
+        margin-top: -5px;
+        line-height: 11px;
+        color: #231F20;
+        opacity: 0.8;
+      }
+      .pricedet h3{
+        position: absolute;
+        margin-left: -133px;
+        margin-top: -23px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 100%;
+        color: #AD184C;
+         
+     }
+     .strike{
+        position: absolute;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 78%;
+        margin-top: -22px;
+        text-decoration-line: line-through;
+        color: #979596;
+        margin-left: -58px;
+     }
+     .pricedet b{
+        position: absolute;
+        margin-left: -29px;
+        margin-top: -26px;
+        opacity: 0.8;
+        font-size: 7px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+     }
+     .gift{
+        position: absolute;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: -26px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 9px;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        color: #231F20;
+        opacity: 0.8;
+     }
+     .heartpng{display: none;}
+.btn-2{
+    border: 1px solid #DEA3B7;
+    display: block;
+    width: 160px;
+    height: 29px;
+    margin-left: -1px;
+    margin-top: -48px;
+    }
+    .btn-2 div{
+        flex:1;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height:30px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        opacity: 0.7;
+    }
+}
+/* 
     
 .pricedet{
     margin-left: 153px;
@@ -584,4 +796,3 @@ color: #979596;
     background: #FFFFFF;
     border: 1px solid rgba(155, 155, 155, 0.3);
  } */
-}
